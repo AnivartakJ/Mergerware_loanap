@@ -1,0 +1,40 @@
+{
+  "name": "Mergerware_loanify",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "meteor run",
+    "test": "meteor test --once --driver-package meteortesting:mocha",
+    "test-app": "TEST_WATCH=1 meteor test --full-app --driver-package meteortesting:mocha",
+    "visualize": "meteor --production --extra-packages bundle-visualizer"
+  },
+  "dependencies": {
+    "meteor-node-stubs": "^1.2.7",
+    "@babel/runtime": "^7.23.5",
+    "antd": "^3.25.1",
+    "axios": "^0.19.0",
+    "express": "^4.17.1",
+    "moment": "^2.30.1",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-highlight-words": "^0.20.0",
+    "react-redux": "^7.1.1",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0",
+    "typescript": "^3.7.3",
+    "remote-redux-devtools": "^0.5.16"
+  },
+  "devDependencies": {
+    "remote-redux-devtools": "^0.5.16"
+  },
+  "meteor": {
+    "mainModule": {
+      "client": "client/main.jsx",
+      "server": "server/main.js"
+    },
+    "testModule": "tests/main.js"
+  }
+}
+
