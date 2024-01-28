@@ -1,41 +1,42 @@
-
-
 Technologies:
 
-Meteor - a JavaScript framework for building real-time web applications.
-MongoDB - a NoSQL database that's well-suited for this kind of application.
+Frontend: MeteorJS (JavaScript framework)
+Backend: MongoDB (database)
+Authentication: Email and password
 User Roles:
 
-Admin: Manages users, loans, and payments.
-Borrower: Requests loans and views loan history.
-Lender: Provides loans and views payment history.
-Main functionalities:
+Admin: Manage users, loans, and payments.
+Borrower: Request loans, view loan history, and make payments.
+Lender: Invest in loans, view loan history, and receive payments.
+Main Features:
 
-User registration and role selection: Implement email-based registration with drop-down menus for selecting roles.
-Loan requests: Borrowers can submit loan requests with details like amount, interest rate, and repayment term.
-Loan approvals and payments: Lenders can review loan requests and confirm loans upon successful payment.
-Transaction history: Both borrowers and lenders can view their respective loan and payment history.
-Dashboard updates: The application should dynamically update each user's dashboard based on their actions and activities.
-Admin panel: Admins can access a dedicated dashboard for managing user accounts, loans, and payments.
-Setting up the development environment:
+User Registration and Roles: Users can register using email and choose their role.
+Loan Requests: Borrowers can submit loan requests with details like amount, interest rate, and repayment period.
+Loan Funding: Lenders can browse available loan requests and choose to fund them partially or fully.
+Loan Status: Each loan has a status (pending, funded, repaid, etc.) reflected on user dashboards.
+Transaction History: Users can view their past loan requests, investments, and payments.
+Admin Dashboard: Admins can view all user accounts, loans, and payments, and manage system settings.
+Getting Started:
 
-Extract the ZIP file: Use the unzip command, e.g., Mergerware_loanapp.zip.
-Install Meteor: Refer to the official Meteor installation guide based on your operating system.
-Run the application: Navigate to the extracted directory and run meteor run.
-Access the application: Open http://localhost:3000 in your web browser.
-Building the functionalities:
+Extract the ZIP File: Unzip the provided ZIP file containing the Meteor project.
+Install Dependencies: Open a terminal in the project directory and run npm install.
+Start the Server: Run meteor run to start the Meteor server.
+Access the App: Open http://localhost:3000 in your browser to access the app.
+Additional Instructions:
 
-Use Meteor collections to store user data, loans, and payments.
-Implement forms and routing for user registration, loan requests, and approvals.
-Create reactive templates to update user dashboards with real-time data.
-Develop custom JavaScript functions for managing loan logic and transactions.
-Design the admin panel as a separate dashboard with access to user and transaction data.
-GitHub repository:
+User Interface: You'll need to build the user interface for each role using HTML, CSS, and JavaScript.
+Database: The provided ZIP file might already have a database setup. If not, you'll need to configure MongoDB and connect it to the app.
+Authentication: Implement email and password authentication for user logins.
+Loan Management: Develop functionalities for loan requests, funding, and status updates.
+Payment System: Implement a payment system for borrowers to repay loans to lenders.
+Admin Panel: Create an admin dashboard with functionalities for user management, loan overview, and system settings.
+GitHub Repository:
 
-Create a public GitHub repository and push your project code to it. This allows collaborative development and sharing.
+Create a new GitHub repository for your project.
+Push the extracted project files and your code changes to the repository.
+Share the repository link with your instructor for review.
+Further Resources:
 
-Additional notes:
-
-Refer to Meteor documentation for syntax and API usage.
-Consider using Meteor packages for additional functionalities like user authentication or email sending.
-Test your application thoroughly for different scenarios and user roles.
+MeteorJS Documentation: https://docs.meteor.com/
+MongoDB Documentation: https://www.mongodb.com/docs/
+Email and Password Authentication in Meteor: https://docs.meteor.com/v1.3/api/email.html
