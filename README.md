@@ -1,4 +1,4 @@
-I understand you're interested in building a loan application with different user roles and functionalities. I can definitely help you with that! Based on your requirements, here's a breakdown of the approach and steps to get you started:
+
 
 Technologies:
 
