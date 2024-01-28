@@ -19,7 +19,7 @@ Dashboard updates: The application should dynamically update each user's dashboa
 Admin panel: Admins can access a dedicated dashboard for managing user accounts, loans, and payments.
 Setting up the development environment:
 
-Extract the ZIP file: Use the unzip command, e.g., unzip loan_app.zip.
+Extract the ZIP file: Use the unzip command, e.g., Mergerware_loanapp.zip.
 Install Meteor: Refer to the official Meteor installation guide based on your operating system.
 Run the application: Navigate to the extracted directory and run meteor run.
 Access the application: Open http://localhost:3000 in your web browser.
